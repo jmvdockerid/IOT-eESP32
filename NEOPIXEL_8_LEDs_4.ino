@@ -1,3 +1,15 @@
+/*
+ESP module: ESP-WROOM-32
+Getest met: Arduino IDE
+Sensor: LED strip van 8 LEDs WS2812B ;
+Doel: willekeurige kleuren weergeven ;
+Specs: I2C, 5V ;
+Aansluiten (van sensor naar ESP)
+5V naar 5V
+GND naar GND
+DIN naar GPIO 16
+*/
+
 #include <Adafruit_NeoPixel.h>
 
 #define LED_PIN   16
